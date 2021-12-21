@@ -1,5 +1,7 @@
 <h2> Turtle Module </h2>
 
+<h4>Imagine a robotic turtle starting at (0, 0) in the x-y plane. After an import turtle, give it the command turtle.forward(200), and it moves (on-screen!) 200 pixels in the direction it is facing, drawing a line as it moves. Give it the command turtle.right(45), and it rotates in-place 45 degrees clockwise.By combining together these and similar commands, intricate shapes and pictures can easily be drawn.This is the concept we use in turtle module. </h4>
+
 **Turtle Graphics**
 
 ```
@@ -206,5 +208,42 @@ for i in range(50):
     xen.right(25)
     x += 2
 
+scrn.exitonclick()
+```
+
+**A design using turtle**
+
+```
+import turtle
+scrn = turtle.Screen()
+mini = turtle.Turtle()
+mini.color("yellow")
+mini.shape("turtle")
+mini.penup()                     #picks the pen up so the turtle does not draw a line as it moves.
+for i in range(10):
+    mini.forward(50)
+    mini.stamp()
+    mini.forward(-50)
+    mini.right(36)
+
+    
+scrn.exitonclick()
+```
+**Another design slighly changed condition from the previous one**
+
+```
+import turtle
+scrn = turtle.Screen()
+mini = turtle.Turtle()
+mini.shape("turtle")
+mini.color("pink")
+mini.penup()                  #picks the pen up so the turtle does not draw a line as it moves.               
+for i in range(10):
+    mini.forward(50)
+    mini.stamp()
+    mini.right(36)
+    mini.forward(-50)
+   
+    
 scrn.exitonclick()
 ```
