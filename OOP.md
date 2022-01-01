@@ -1,4 +1,8 @@
 # OOP ( Object Oriented Programming) 
+
+<img src="https://github.com/LWM-Community/Python/blob/main/Photos/oop.png"  alt="Our Post shared by Dev Community " width="400" height="400" align="right"/>
+
+
 Requirement: List, Dictionary , Function etc
 
 So, OOP is basically programming with Object
