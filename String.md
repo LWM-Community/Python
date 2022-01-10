@@ -2,7 +2,7 @@
 
 ***String is a sequence of ordered characters (alphabets-lower case, upper case, numeric values, special symbols).*** 
 
-Strings are either enclosed with single qutation marks('),double quotation marks(''). Also we can write multi line string using triple qutations(''', " " " both) The character order is always from left to right.
+Strings are either enclosed with single qutation marks('),double quotation marks('') and triple quotation marks('''). Also we can write multi line string using triple qutations(''', " " " both) The character order is always from left to right.
 ```
 print("Hello! I am mouly")
 print('Helloo! I am Mouly')
@@ -47,6 +47,18 @@ Output:
 ```
 
 
+```
+<h4> f-string </h4>
+f-strings are string literals called as “formatted string literals” that have an f at the beginning and curly braces containing expressions that will be replaced with their values. 
+
+```
+wrd = 'looking'
+who ='kid'
+print(f'Here\'s {wrd} at you, {who}')
+```
+Output:
+```
+Here's looking at you, kid
 ```
 <h4>Type</h4>
 
@@ -359,7 +371,7 @@ Output:
 ```
 So, the split method won't include the delimeter in the list it returns.
 
-<h4>join method</h4>
+<h4>Join method</h4>
 
 The inverse of the split method is join. We can choose a desired separator string, (often called the glue) and join the list with the glue between each of the elements.
 
