@@ -1158,5 +1158,9 @@ print(times_03(9))
 #Output:
 #27
 ```
+## Thanks to all the contributors ❤️
+<a href = "https://github.com/LWM-Community/Python/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=LWM-Community/Python"/>
+</a>
 
 
